@@ -1,14 +1,7 @@
 {
-  "People": {
-    "status": { "boolean": {} },
-    "fees": { "int": { "min": 0, "max": 1000000 } },
-    "name": { "string": {} },
-    "title": { "string": {} },
-    "department": { "string": {} },
-    "role": { "string": {} },
-    "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
-    "image": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+  "User": {
+    "title": {
+      "string": {}
     }
   }
 }
