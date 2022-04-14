@@ -12,5 +12,19 @@
     "department": { "string": {} },
     "role": { "string": {} },
     "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" }
+  },
+  "Product":{
+    "name": {
+      "string": {}
+    },
+    "image": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+    },
+    "price": { "int": { "min": 0, "max": 1000000 } },
+    "description": { "string": {} },
+    "category": { "string": {} },
+    "quantity": { "int": { "min": 0, "max": 1000000 } },
+    "rating": { "int": { "min": 0, "max": 5 } },
+    "reviews": { "int": { "min": 0, "max": 1000000 } }
   }
 }
